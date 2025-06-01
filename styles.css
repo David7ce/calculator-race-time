@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calculator {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label,
+select {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+
+select {
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.radio-group label {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.time-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.time-inputs select {
+    flex: 1;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.time-inputs span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+th,
+td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.resalted-cell {
+    background-color: #f0f0f0;
+    /* font-weight: bold; */
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
